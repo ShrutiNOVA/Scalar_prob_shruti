@@ -1,2 +1,1 @@
-runtime: python
-entrypoint: python inference.py
+entrypoint: inference:predict
