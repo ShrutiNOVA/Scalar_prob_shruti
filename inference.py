@@ -1,6 +1,2 @@
-def run_model(input_text):
+def predict(input_text: str) -> str:
     return "Reviewed Code: " + input_text
-
-
-if __name__ == "__main__":
-    print(run_model("test"))
